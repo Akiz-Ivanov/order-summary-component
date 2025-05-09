@@ -1,3 +1,5 @@
+import illustration from './assets/images/illustration-hero.svg'
+import iconMusic from './assets/images/icon-music.svg'
 
 function App() {
 
@@ -9,7 +11,7 @@ function App() {
      bg-very-pale-blue rounded-3xl m-5 shadow-2xl text-desaturated-blue
      max-w-md
      ">
-        <img src="/src/assets/images/illustration-hero.svg" alt=""
+        <img src={illustration} alt="Person enjoying music illustration"
           className="w-full rounded-t-3xl"
         />
 
@@ -27,7 +29,7 @@ function App() {
           <div className="flex items-center justify-between w-full p-4 md:p-5 bg-[#f4fcfc] rounded-2xl">
 
             <div className="flex items-center gap-5">
-              <img src="/src/assets/images/icon-music.svg" alt="" />
+              <img src={iconMusic} alt="" />
               <div>
                 <span className="font-900 text-dark-blue">
                   Annual Plan
